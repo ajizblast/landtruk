@@ -142,7 +142,7 @@ export default function Header(props) {
                   </h5>
                   <NavDropdown id="dropdown" title={<img src={Profile} alt="" className="rounded-circle" style={{ cursor: "pointer", objectFit: "cover", width: "50px", height: "50px" }} />}>
                     <NavDropdown.Divider style={{ background: "#EC7AB7" }} />
-                    <NavDropdown.Item href="/my-ticket-approve">
+                    <NavDropdown.Item href="/my-ticket">
                       <img src={Ticket} alt="" style={{ width: 40, height: 38.17 }} />
                       <span className="ms-2 fw-bold">My Ticket</span>
                     </NavDropdown.Item>
